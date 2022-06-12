@@ -19,6 +19,10 @@
     "graphql.macro": "^1.4.2",
     "mobx": "^6.6.0",
     "mobx-react": "^7.5.0",
+    "postcss-aspect-ratio-mini": "^1.1.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-px2vw": "0.0.1",
+    "postcss-write-svg": "^3.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router": "^6.3.0",
@@ -68,5 +72,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@jonny1994/postcss-px-to-viewport": "^1.1.0"
   }
 }

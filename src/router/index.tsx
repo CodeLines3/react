@@ -1,6 +1,7 @@
+import { lazy } from "react";
 import { RouteObject } from "react-router-dom";
 import HomeRoutes from "./module/home";
-import About from '@/views/About';
+const About: any = lazy(() => import('@/views/About'));
 const routes: RouteObject[] = [
   HomeRoutes,
   {

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "antd";
-import { observer, useLocalObservable, Observer } from "mobx-react-lite";
+import { observer } from "mobx-react-lite";
 import { inject } from "mobx-react";
 
 function Home({ goodsStore }) {

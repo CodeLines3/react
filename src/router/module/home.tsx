@@ -1,6 +1,6 @@
 
 
-import { lazy, LazyExoticComponent } from 'react';
+import { lazy } from 'react';
 const Home: any = lazy(() => import('@/views/Home'));
 const routes = {
   path: "/",
