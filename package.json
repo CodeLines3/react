@@ -14,6 +14,8 @@
     "antd": "^4.21.0",
     "antd-mobile": "^5.14.3",
     "axios": "^0.27.2",
+    "babel-plugin-import": "^1.13.5",
+    "craco-antd": "^2.0.0",
     "dayjs": "^1.11.3",
     "graphql": "^16.5.0",
     "graphql.macro": "^1.4.2",
@@ -74,6 +76,7 @@
     ]
   },
   "devDependencies": {
-    "@jonny1994/postcss-px-to-viewport": "^1.1.0"
+    "@jonny1994/postcss-px-to-viewport": "^1.1.0",
+    "craco-sass-resources-loader": "^1.1.0"
   }
 }

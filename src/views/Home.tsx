@@ -9,7 +9,7 @@ function Home({ goodsStore }) {
   };
   return (
     <>
-      <div>home</div>
+      <div className="border1px">home</div>
       <div>
         <Button type="primary" onClick={add}>
           add
@@ -17,7 +17,7 @@ function Home({ goodsStore }) {
         {goodsStore.num}
       </div>
       <Link to="/about">
-        <Button type="primary">about2</Button>
+        <Button type="primary">about</Button>
       </Link>
     </>
   );
