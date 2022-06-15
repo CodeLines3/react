@@ -1,14 +1,15 @@
-
-import { useRoutes } from 'react-router-dom';
-import routes from './router';
+import { useRoutes } from "react-router-dom";
+import routes from "./router";
+import { AuthProvider, RequireAuth } from "@/components/Auth";
 
 function App() {
-  console.log('app')
   const elements = useRoutes(routes);
   return (
-    <>
-      { elements }
-    </>
+    <AuthProvider>
+      <RequireAuth>
+        <>{elements}</>
+      </RequireAuth>
+    </AuthProvider>
   );
 }
 

@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "mobx-react";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
-import "./index.css";
+import "@/styles/index.css";
 import stores from "./store";
 import App from "./App";
 
